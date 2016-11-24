@@ -24,7 +24,7 @@ public class ManufacturerInitializer {
 
     static String YOUR_URL = "https://kaufland.herokuapp.com/";
     static String YOUR_NAME = "tpaw2802";
-    static ProductDTO YOUR_PRODUCT = new ProductDTO(50, 30, 20);
+    static ProductDTO YOUR_PRODUCT = new ProductDTO(37 , 19, 46);
 
     @Scheduled(fixedRate = 5000)
     @PostConstruct
