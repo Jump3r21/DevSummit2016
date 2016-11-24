@@ -22,7 +22,7 @@ public class ManufacturerInitializer {
     @Value("${registerUrl}")
     String registerUrl;
 
-    static String YOUR_URL = "http://127.0.0.1:8081";
+    static String YOUR_URL = "https://kaufland.herokuapp.com/";
     static String YOUR_NAME = "tpaw2802";
     static ProductDTO YOUR_PRODUCT = new ProductDTO(50, 30, 20);
 
